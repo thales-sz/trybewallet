@@ -1,0 +1,54 @@
+table {
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(139, 139, 139);
+}
+body {
+  background-color: grey;
+}
+tr {
+  margin-bottom: 50px;
+}
+.table-body {
+  background-color: white;
+}
+
+.button-container {
+  background-color: rgb(139, 139, 139);
+}
+
+.edit-btn {
+  font-size: 20px;
+  margin-right: 5px;
+  border: 2px solid rgb(10, 10, 10);
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  background-color: blue;
+  transition: transform 450ms;
+}
+
+.edit-btn:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+  box-shadow: 1px 3px 10px 0 rgb(10, 10, 10);
+}
+
+.delete-btn {
+  font-size: 20px;
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 5px;
+  padding: 5px;
+  width: 50px;
+  background-color: rgb(255, 72, 0);
+  transition: transform 450ms;
+}
+
+.delete-btn:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+  box-shadow: 1px 3px 10px 0 rgb(12, 11, 11);
+}

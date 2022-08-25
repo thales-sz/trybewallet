@@ -1,0 +1,44 @@
+#title-form {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(2, 2, 2);
+}
+
+.form-container {
+  display: flex;
+  padding: 12px;
+  justify-content: space-between;
+}
+
+.form {
+  background-color: rgb(194, 194, 194);
+}
+
+.form-button {
+  font-size: 15px;
+  transition: transform 450ms;
+  padding: 5px;
+  font-weight: bolder;
+  border: 2px solid rgb(10, 10, 10);
+  border-radius: 5px;
+}
+
+.form-button:hover {
+  cursor: pointer;
+  transform: scale(1.11);
+  box-shadow: 1px 3px 10px 0 rgb(10, 10, 10);
+}
+
+#currency, #value, #method, #tag, #description {
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(74, 177, 160);
+  padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
